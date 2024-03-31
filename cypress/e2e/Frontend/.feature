@@ -21,7 +21,7 @@ Feature: Mensagens de erro durante o registro
     Eu quero ver mensagens de erro claras
     Para entender quais campos são obrigatórios durante o registro
   
-    Scenario: Exibir mensagens de erro de campos obrigatórios
+  Scenario: Exibir mensagens de erro de campos obrigatórios
       Given que estou na página inicial do Nopcommerce
       When eu clico no botão de registro
       And preencho apenas o campo de data de nascimento e o campo de nome da empresa
