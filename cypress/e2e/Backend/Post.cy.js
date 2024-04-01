@@ -22,8 +22,8 @@ describe('API Post', () => {
         method: 'POST',
         url: 'https://serverest.dev/login',
         body: {
-            "email": "fulano@qa.com",
-            "password": "teste"
+            "email": "flavia1711984461686@mailinator.com",
+            "password": "#teste123"
         }
       }).then((response) => {
         expect(response.status).to.eq(200) 

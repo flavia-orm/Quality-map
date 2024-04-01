@@ -3,11 +3,11 @@ describe('Teste de PUT de Usuário', () => {
       const timestamp = new Date().getTime();
       const userId = '0uxuPY0cbmQhpEz1'; 
       const userData = {
-        "nome": "Flávia Morais",
-        "email": `flavia${timestamp}@mailinator.com`,
-        "password": "teste",
-        "administrador": "true"
-      };
+          "nome": "Fulano da Silva",
+          "email": `flavia${timestamp}@mailinator.com`,
+          "password": "teste",
+          "administrador": "true"
+        };
   cy.request({
         method: 'PUT',
         url: `https://serverest.dev/usuarios/${userId}`, 
@@ -16,7 +16,7 @@ describe('Teste de PUT de Usuário', () => {
           'Content-Type': 'application/json'
         }
       }).then((response) => {
-        expect(response.status).to.equal(201) 
+        expect(response.status).to.equal(200) 
       })
     })
 })

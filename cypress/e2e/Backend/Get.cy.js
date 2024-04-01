@@ -1,6 +1,6 @@
 describe('Teste de GET', () => {
     it('Deve obter informações de um usuário existente', () => {
-      const userId = "0KnyVdRUjcnRr8IC"; 
+      const userId = "0uxuPY0cbmQhpEz1"; 
       cy.request({
         method: 'GET',
         url: `https://serverest.dev/usuarios/${userId}` 
