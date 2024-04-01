@@ -23,7 +23,7 @@ describe('Teste de GET', () => {
     it('Deve obter o produto Mouse Gamer Logitech G403 ', () => {
       cy.request({
         method: 'GET',
-        url: 'https://serverest.dev/produtos', // URL do endpoint GET de produtos
+        url: 'https://serverest.dev/produtos', 
         qs: {
           _id: 'TSVq1xNi7O8yMe9m',
           nome: 'Mouse Gamer Logitech G403',
